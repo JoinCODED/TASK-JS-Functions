@@ -4,11 +4,8 @@
  * - logs "Hello <name>"
  *
  * e.g.
- * greet("Hamza") logs "Hello Hamza"
+ * greet("Laila") logs "Hello Laila"
  */
-function greet(name) {
-  // Your code here
-}
 
 /**
  * isOdd(n):
@@ -19,9 +16,6 @@ function greet(name) {
  * isOdd(7) -> true
  * isOdd(10) -> false
  */
-function isOdd(n) {
-  // Your code here
-}
 
 /**
  * oddsSmallerThan(n):
@@ -32,9 +26,6 @@ function isOdd(n) {
  * oddsSmallerThan(7) -> 3
  * oddsSmallerThan(15) -> 7
  */
-function oddsSmallerThan(n) {
-  // Your code here
-}
 
 /**
  * squareOrDouble(n):
@@ -46,8 +37,25 @@ function oddsSmallerThan(n) {
  * squareOrDouble(16) -> 32
  * squareOrDouble(9) -> 81
  */
-function squareOrDouble(n) {
-  // Your code here
+
+function main(
+  firstFuncParam,
+  secondFuncParam,
+  thirdFuncParam,
+  fourthFuncParam
+) {
+  // run first function
+
+  // save second function result into const
+  const secondFuncResult;
+
+  // save third function result into const
+  const thirdFuncResult;
+
+  // save fourth function result into const
+  const fourthFuncResult;
+
+  return [secondFuncResult, thirdFuncResult, fourthFuncResult];
 }
 
-module.exports = { greet, isOdd, oddsSmallerThan, squareOrDouble };
+module.exports = main;
